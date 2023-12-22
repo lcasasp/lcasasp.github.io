@@ -103,7 +103,7 @@ const MY_PROJECTS: Array<Project> = [
 	},
 	{
 		slug: 'media-validator',
-		color: '#ff3e00',
+		color: '#0B6623',
 		description:
 			`Learn more at: https://docs.google.com/document/d/1kBd0HbxXhroNaY7ho4WQk9w2MjD0sZcuksCGMA3iJ60/edit?usp=sharing
 			\n See the notebook here: https://colab.research.google.com/drive/1qvIJVg0DtFLzR_o6Mo93AGm_GdWsv7Mr?usp=sharing`,
@@ -127,7 +127,7 @@ const MY_PROJECTS: Array<Project> = [
 	},
 	{
 		slug: 'McDiver',
-		color: '#ff3e00',
+		color: '#5e95e3',
 		description:
 			`Data structures and algorithms in Java course project. This project involves a two-stage game. The first stage, the seek stage, McDiver (the character) only knows the neighboring tiles and the manhattan distance to the ring (goal). Thus, by using a DFS algorithm, we can attempt to minimize the path to the ring in the varying mazes, which will increase the bonus multiplier for the next stage.
 			The second stage, the scram stage, is one where the cave is collapsing and McDiver needs to reach the exit in x amount of steps. this stage is full of coins with varying values and the goal is to collect as many coins with the highest value total and reach the exit with the given amount of steps.`,

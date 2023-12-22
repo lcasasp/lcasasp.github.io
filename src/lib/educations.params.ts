@@ -24,6 +24,6 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2020, 6, 1), to: new Date(2020, 8, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['HTML/CSS', 'C++', 'Algorithms and Data structures']
+		subjects: ['HTML/CSS', 'Javascript', 'C++', 'Algorithms and Data structures']
 	}
 ];
