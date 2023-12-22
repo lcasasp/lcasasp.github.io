@@ -44,11 +44,11 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'mandelbrot.bf',
-				src: '/lcasasp.github.io/screenshots/mandelbrot.png'
+				src: '/screenshots/mandelbrot.png'
 			},
 			{
 				label: 'Public API',
-				src: '/lcasasp.github.io/screenshots/bf-interpreter.png'
+				src: '/screenshots/bf-interpreter.png'
 			}
 		]
 	},
@@ -93,11 +93,11 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Deployment',
-				src: '/lcasasp.github.io/screenshots/gcp.png'
+				src: '/screenshots/gcp.png'
 			},
 			{
 				label: 'Public API',
-				src: '/lcasasp.github.io/screenshots/cornell-hitch-api.png'
+				src: '/screenshots/cornell-hitch-api.png'
 			}
 		]
 	},
@@ -121,7 +121,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Model Results',
-				src: '/lcasasp.github.io/screenshots/model-results.png'
+				src: '/screenshots/model-results.png'
 			}
 		]
 	},
@@ -145,11 +145,11 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Gameplay seek state',
-				src: '/lcasasp.github.io/screenshots/mcdiver1.png'
+				src: '/screenshots/mcdiver1.png'
 			},
 			{
 				label: 'Gameplay scram state',
-				src: '/lcasasp.github.io/screenshots/mcdiver2.png'
+				src: '/screenshots/mcdiver2.png'
 			}
 		]
 

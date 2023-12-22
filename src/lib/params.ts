@@ -72,7 +72,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: '/lcasasp.github.io/resume.pdf'
+	item: '/resume.pdf'
 };
 
 export const SEARCH: SearchPageParams = {
