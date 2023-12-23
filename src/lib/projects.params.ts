@@ -234,6 +234,14 @@ const MY_PROJECTS: Array<Project> = [
 			{
 				label: 'Task Manager',
 				src: '/screenshots/task-manager.png'
+			},
+			{
+				label: 'CLI Home',
+				src: '/screenshots/task-home.png'
+			},
+			{
+				label: 'scheduler.mli',
+				src: '/screenshots/scheduler.png'
 			}
 		]
 	},
