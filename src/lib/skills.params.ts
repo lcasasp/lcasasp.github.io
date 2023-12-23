@@ -53,7 +53,7 @@ const MY_SKILLS = [
 		color: 'blue',
 		description:
 			`Typescript is a superset of Javascript that I have recently started using. I have used it in my personal website and in Flare to develop a good frontend.
-			I have used it in conjunction with React using Vue for Flare, as well as Svelte for this project.`,
+			I have used it in conjunction with ts+React using Vite for Flare, as well as ts+Svelte for this project.`,
 		logo: Assets.TypeScript,
 		name: 'Typescript'
 	}),
@@ -62,7 +62,7 @@ const MY_SKILLS = [
 		color: 'cyan',
 		description:
 			`Since discovering React earlier in 2023, I have fallen in love with the possibilities it offers. I have used it heavily in the production of Flare, 
-			developing a good unerstanding of components and how projects work together using Node and NPM. I am eager to learn more and hope to add more projects
+			developing a good understanding of components and how projects work together using Node and NPM. I am eager to learn more and hope to add more projects
 			down below soon.`,
 		logo: Assets.ReactJs,
 		name: 'React Js'

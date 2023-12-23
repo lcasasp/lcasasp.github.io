@@ -54,7 +54,7 @@ const MY_PROJECTS: Array<Project> = [
 	},
 	{
 		slug: 'Cornell-Hitch',
-		color: '#ff3e00',
+		color: '#080808',
 		description: `Cornell hitch is an app that uses google to authenticate 
 			cornell users (through cornell.edu email) and has a posting board 
 			for users to post and find rides going to cities. All rides 
@@ -126,6 +126,57 @@ const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
+		slug: 'RML-Interpreter',
+		color: '#ff3e00',
+		description:
+			`An interpreter for a language similar to OCaml - RML (Robot Meta Language) that
+			can interpret RML code and run it. This project involved understanding formal
+			semantics as well as advanced OCaml concepts such as closures and environments.
+			Additionally, this project gave me deep insight into the semantics of let statements
+			and pattern matching and how they can be implemented in a language.`,
+		shortDescription:
+			`An interpreter for a language similar to OCaml - RML (Robot Meta Language) that
+			can interpret RML code and run it. This project involved understanding formal
+			semantics as well as advanced OCaml concepts such as closures and environments.
+			Additionally, this project gave me deep insight into the semantics of let statements
+			and pattern matching and how they can be implemented in a language.`,
+		links: [{ to: 'https://www.github.com/lcasasp/RML-Interpreter', label: 'GitHub' }],
+		logo: Assets.OCaml,
+		name: 'RML Interpreter',
+		period: {
+			from: new Date(2023, 11, 1),
+			to: new Date(2023, 12, 1)
+		},
+		skills: getSkills('OCaml'),
+		type: 'Interpreter',
+		screenshots: [
+			{
+				label: 'formal semantics',
+				src: '/screenshots/rml-semantics1.png'
+			},
+			{
+				label: '',
+				src: '/screenshots/rml-semantics2.png'
+			},
+			{
+				label: '',
+				src: '/screenshots/rml-semantics3.png'
+			},
+			{
+				label: '',
+				src: '/screenshots/rml-semantics4.png'
+			},
+			{
+				label: '',
+				src: '/screenshots/rml-semantics5.png'
+			},
+			{
+				label: '',
+				src: '/screenshots/rml-semantics6.png'
+			}
+		]
+	},
+	{
 		slug: 'McDiver',
 		color: '#5e95e3',
 		description:
@@ -152,7 +203,84 @@ const MY_PROJECTS: Array<Project> = [
 				src: '/screenshots/mcdiver2.png'
 			}
 		]
-
+	},
+	{
+		slug: "smart-task-manager",
+		color: "#ff3e00",
+		description: 
+			`
+			This project is a CLI-based task manager that allows users to create, delete, and modify tasks.
+			It also allows users to input tasks and the program automatically configures the best schedule based
+			off of hourly preferences. \n
+			This project was developed in OCaml meant to test my skills working with a group for CS 3110.
+			`,
+		shortDescription:
+			`
+			This project is a CLI-based task manager that allows users to create, delete, and modify tasks.
+			It also allows users to input tasks and the program automatically configures the best schedule based
+			off of hourly preferences. \n
+			This project was developed in OCaml meant to test my skills working with a group for CS 3110.
+			`,
+		links: [{ to: 'https://github.com/lcasasp/Smart-Task-Manager', label: 'GitHub' }],
+		logo: Assets.OCaml,
+		name: 'Smart Task Manager',
+		period: {
+			from: new Date(2023, 8, 1),
+			to: new Date(2023, 11, 10)
+		},
+		skills: getSkills('OCaml'),
+		type: 'CLI Application',
+		screenshots: [
+			{
+				label: 'Task Manager',
+				src: '/screenshots/task-manager.png'
+			}
+		]
+	},
+	{
+		slug: "planetoids",
+		color: "#00008B",
+		description: 
+			`
+			This project is a game that allows users to play a game similar to asteroids. 
+			The game is built using python and was done in my CS1110 class. This project made me 
+			learn about basic game development, including game states and the mathematical applications
+			in software.
+			`,
+		shortDescription:
+			`
+			This project is a game that allows users to play a game similar to asteroids. 
+			The game is built using python and was done in my CS1110 class. This project made me 
+			learn about basic game development, including game states and the mathematical applications
+			in software.
+			`,
+		links: [{ to: 'https://www.github.com/lcasasp/Planetoids', label: 'GitHub' }],
+		logo: Assets.Ship,
+		name: 'Planetoids',
+		period: {
+			from: new Date(2022, 10, 1),
+			to: new Date(2022, 10, 8)
+		},
+		skills: getSkills('Python'),
+		type: 'Game',
+		screenshots: [
+			{
+				label: 'Gameplay',
+				src: '/screenshots/planetoid.png'
+			},
+			{
+				label: 'Impulse Calculations',
+				src: '/screenshots/planetoid-impulse.png'
+			},
+			{
+				label: 'Deadzone Calculations',
+				src: '/screenshots/planetoid-deadzone.png'
+			},
+			{
+				label: 'Collision Vectors',
+				src: '/screenshots/planetoid-vectors.png'
+			}
+		]
 	}
 ];
 

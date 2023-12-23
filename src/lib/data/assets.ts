@@ -80,6 +80,7 @@ const Assets = {
 	MLModels: a('mlmodels.png'),
 	ML: a('ml.png'),
 	OCaml: a('ocaml.svg'),
+	Ship: a('ship.png'),
 };
 
 export default Assets;
