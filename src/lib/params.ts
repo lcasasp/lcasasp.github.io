@@ -50,7 +50,7 @@ export const HOME: HomePageParams = {
 		},
 		{
 			platform: Platform.Email,
-			link: 'lucascasasp@icloud.com'
+			link: 'lcc79@cornell.edu'
 		}
 	]
 };
