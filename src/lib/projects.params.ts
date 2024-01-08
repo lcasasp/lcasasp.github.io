@@ -24,7 +24,13 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2023, 8, 1)
 		},
 		skills: getSkills('reactjs', 'Python', 'Flask'),
-		type: 'Search Engine'
+		type: 'Search Engine',
+		screenshots: [
+			{
+				label: 'Public API',
+				src: '/screenshots/flare-api.png'
+			}
+		]
 	},
 	{
 		slug: 'bf-interpreter',
