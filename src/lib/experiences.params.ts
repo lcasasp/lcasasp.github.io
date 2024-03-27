@@ -25,7 +25,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.Internship,
 		type: 'Software Development',
 		location: 'Ithaca NY',
-		period: { from: new Date() },
+		period: { from: new Date(2023, 8, 1), to: new Date() },
 		skills: getSkills('Rust', 'Python', 'ts', 'reactjs', 'css', 'html', 'js'),
 		name: 'Ventures Accelerated SWE Fellow',
 		color: '#ffffff',

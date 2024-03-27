@@ -41,9 +41,16 @@ export const HOME: HomePageParams = {
 	name: 'Lucas',
 	lastName: 'Casas',
 	description:
-		'Hi! Welcome to my portfolio! I am a backend/fullstack developer as well as a current student at Cornell University - College of Engineering hoping to concentrate in AI/ML. Feel free to browse and check out some of my projects and please reach out to me if you have any questions!',
+		'Welcome to my portfolio! I am a backend/fullstack developer interning'+
+		 'at Lockheed Martin\' digital transformation team - as well as a '+
+		  'current student at Cornell University - College of Engineering '+
+		  'hoping to concentrate in AI/ML. Feel free to browse and check out '+
+		  'some of my projects and please reach out to me if you have any '+
+		  'questions!',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/lcasasp' },
+		{ 
+			platform: Platform.GitHub,
+			link: 'https://github.com/lcasasp' },
 		{
 			platform: Platform.Linkedin,
 			link: 'https://www.linkedin.com/in/lcasasp'
