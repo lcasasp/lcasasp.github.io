@@ -42,9 +42,9 @@ export const HOME: HomePageParams = {
 	lastName: 'Casas',
 	description:
 		'Welcome to my portfolio! I am a backend/fullstack developer interning'+
-		 'at Lockheed Martin\' digital transformation team - as well as a '+
-		  'current student at Cornell University - College of Engineering '+
-		  'hoping to concentrate in AI/ML. Feel free to browse and check out '+
+		 'at Lockheed Martin\'s digital transformation team - as well as a '+
+		  'current student at Cornell Engineering hoping to concentrate in AI/ML. \n'+
+		  'Feel free to browse and check out '+
 		  'some of my projects and please reach out to me if you have any '+
 		  'questions!',
 	links: [
