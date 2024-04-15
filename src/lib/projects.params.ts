@@ -7,12 +7,12 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'Flare',
 		color: '#5e95e3',
 		description: `
-				Flare is a cutting-edge search engine powered by Lucene, designed to provide users with unbiased and comprehensive 
+				Founded Flare, a cutting-edge search engine powered by Elastic, designed to provide users with unbiased and comprehensive 
 			insights into the global climate and energy crisis. It aggregates current events and news media from diverse 
 			sources, eliminating bias and delivering tailored results to inform and empower users.
 			`,
 		shortDescription: `
-				Flare is a cutting-edge search engine powered by Lucene, designed to provide users with unbiased and comprehensive 
+				Founded Flare, a cutting-edge search engine powered by Elastic, designed to provide users with unbiased and comprehensive 
 			insights into the global climate and energy crisis. It aggregates current events and news media from diverse 
 			sources, eliminating bias and delivering tailored results to inform and empower users.
 			`,

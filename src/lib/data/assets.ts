@@ -81,6 +81,8 @@ const Assets = {
 	ML: a('ml.png'),
 	OCaml: a('ocaml.svg'),
 	Ship: a('ship.png'),
+	Lockheed: a('lockheed.png'),
+	Palantir: a('palantir.png'),
 };
 
 export default Assets;
