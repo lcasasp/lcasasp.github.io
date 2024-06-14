@@ -13,7 +13,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		type: 'Software Engineering',
 		location: 'New York, NY',
 		period: { from: new Date(2024, 5, 1)},
-		skills: getSkills('C#', 'Angular'),
+		skills: getSkills('CSharp', 'Angular'),
 		name: 'Software Engineering Intern',
 		color: '#003478',
 		links: [{ to: 'https://www.lockheedmartin.com/en-us/index.html', label: 'Lockheed Martin' }],
