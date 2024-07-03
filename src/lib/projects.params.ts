@@ -6,11 +6,11 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'Flare',
 		color: '#5e95e3',
-		description: `
-				Founded Flare, a cutting-edge search engine powered by Elastic, designed to provide users with unbiased and comprehensive 
-			insights into the global climate and energy crisis. It aggregates current events and news media from diverse 
-			sources, eliminating bias and delivering tailored results to inform and empower users.
-			`,
+		description: 
+				"Architected and developed Flare, an innovative open-source Python search engine that aggregates energy and climate news from diverse sources, centralizing them into an SQLite3 database for easy access.\n \n" +
+"Implemented advanced search capabilities leveraging Elasticsearch and Lucene, enhancing user experience through keyword matching, date filters, and a truthfulness algorithm that cross-references articles with IPCC climate report. Engineered a search engine that can sort and index 200 articles with an average speed of 78 ms. \n" +
+"Leveraged advanced multithreading to get, index, score truthfulness of and query 200 articles in under 3.4 seconds."
+			,
 		shortDescription: `
 				Founded Flare, a cutting-edge search engine powered by Elastic, designed to provide users with unbiased and comprehensive 
 			insights into the global climate and energy crisis. It aggregates current events and news media from diverse 
@@ -29,6 +29,18 @@ const MY_PROJECTS: Array<Project> = [
 			{
 				label: 'Public API',
 				src: '/screenshots/flare-api.png'
+			},
+			{
+				label: 'Header',
+				src: '/screenshots/flare-sc1.png'
+			},
+			{
+				label: 'Interactive Globe',
+				src: '/screenshots/flare-sc2.png'
+			},
+			{
+				label: 'Search Results',
+				src: '/screenshots/flare-sc3.png'
 			}
 		]
 	},
@@ -86,7 +98,8 @@ const MY_PROJECTS: Array<Project> = [
 			a top level domain would be needed for deployment to host the 
 			server there instead, but for the scope of this project I felt 
 			that was not necessary.`,
-		shortDescription: 'A ride sharing app for Cornell Students, best backend runnerup at the Cornell Appdev annual hackathon out of 30 teams',
+		shortDescription:
+			'A ride sharing app for Cornell Students, best backend runnerup at the Cornell Appdev annual hackathon out of 30 teams',
 		links: [{ to: 'https://github.com/lcasasp/Cornell-Hitch', label: 'GitHub' }],
 		logo: Assets.Appdev,
 		name: 'Cornell Hitch',
@@ -110,8 +123,7 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'media-validator',
 		color: '#0B6623',
-		description:
-			`Learn more at: https://docs.google.com/document/d/1kBd0HbxXhroNaY7ho4WQk9w2MjD0sZcuksCGMA3iJ60/edit?usp=sharing
+		description: `Learn more at: https://docs.google.com/document/d/1kBd0HbxXhroNaY7ho4WQk9w2MjD0sZcuksCGMA3iJ60/edit?usp=sharing
 			\n See the notebook here: https://colab.research.google.com/drive/1qvIJVg0DtFLzR_o6Mo93AGm_GdWsv7Mr?usp=sharing`,
 		shortDescription:
 			'A Climate news media validator that uses machine learning to validate news articles based on their content, cross referencing their data with the IPCC climate report.',
@@ -134,14 +146,12 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'RML-Interpreter',
 		color: '#ff3e00',
-		description:
-			`An interpreter for a language similar to OCaml - RML (Robot Meta Language) that
+		description: `An interpreter for a language similar to OCaml - RML (Robot Meta Language) that
 			can interpret RML code and run it. This project involved understanding formal
 			semantics as well as advanced OCaml concepts such as closures and environments.
 			Additionally, this project gave me deep insight into the semantics of let statements
 			and pattern matching and how they can be implemented in a language.`,
-		shortDescription:
-			`An interpreter for a language similar to OCaml - RML (Robot Meta Language) that
+		shortDescription: `An interpreter for a language similar to OCaml - RML (Robot Meta Language) that
 			can interpret RML code and run it. This project involved understanding formal
 			semantics as well as advanced OCaml concepts such as closures and environments.
 			Additionally, this project gave me deep insight into the semantics of let statements
@@ -185,11 +195,9 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'McDiver',
 		color: '#5e95e3',
-		description:
-			`Data structures and algorithms in Java course project. This project involves a two-stage game. The first stage, the seek stage, McDiver (the character) only knows the neighboring tiles and the manhattan distance to the ring (goal). Thus, by using a DFS algorithm, we can attempt to minimize the path to the ring in the varying mazes, which will increase the bonus multiplier for the next stage.
+		description: `Data structures and algorithms in Java course project. This project involves a two-stage game. The first stage, the seek stage, McDiver (the character) only knows the neighboring tiles and the manhattan distance to the ring (goal). Thus, by using a DFS algorithm, we can attempt to minimize the path to the ring in the varying mazes, which will increase the bonus multiplier for the next stage.
 			The second stage, the scram stage, is one where the cave is collapsing and McDiver needs to reach the exit in x amount of steps. this stage is full of coins with varying values and the goal is to collect as many coins with the highest value total and reach the exit with the given amount of steps.`,
-		shortDescription:
-			`Data structures and algorithms in Java course project. This project tested me in GUI applications, Dijkstras algorithm, DFS and BFS, and gamestates. \n Developed the 12th best algorithm in the class out of 630 students`,
+		shortDescription: `Data structures and algorithms in Java course project. This project tested me in GUI applications, Dijkstras algorithm, DFS and BFS, and gamestates. \n Developed the 12th best algorithm in the class out of 630 students`,
 		links: [{ to: 'https://www.github.com/lcasasp/McDiver', label: 'GitHub' }],
 		logo: Assets.Java,
 		name: 'McDiver',
@@ -211,17 +219,15 @@ const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: "smart-task-manager",
-		color: "#ff3e00",
-		description: 
-			`
+		slug: 'smart-task-manager',
+		color: '#ff3e00',
+		description: `
 			This project is a CLI-based task manager that allows users to create, delete, and modify tasks.
 			It also allows users to input tasks and the program automatically configures the best schedule based
 			off of hourly preferences. \n
 			This project was developed in OCaml meant to test my skills working with a group for CS 3110.
 			`,
-		shortDescription:
-			`
+		shortDescription: `
 			This project is a CLI-based task manager that allows users to create, delete, and modify tasks.
 			It also allows users to input tasks and the program automatically configures the best schedule based
 			off of hourly preferences. \n
@@ -252,17 +258,15 @@ const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: "planetoids",
-		color: "#00008B",
-		description: 
-			`
+		slug: 'planetoids',
+		color: '#00008B',
+		description: `
 			This project is a game that allows users to play a game similar to asteroids. 
 			The game is built using python and was done in my CS1110 class. This project made me 
 			learn about basic game development, including game states and the mathematical applications
 			in software.
 			`,
-		shortDescription:
-			`
+		shortDescription: `
 			This project is a game that allows users to play a game similar to asteroids. 
 			The game is built using python and was done in my CS1110 class. This project made me 
 			learn about basic game development, including game states and the mathematical applications

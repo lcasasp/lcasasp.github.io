@@ -41,7 +41,7 @@ export const HOME: HomePageParams = {
 	name: 'Lucas',
 	lastName: 'Casas',
 	description:
-		'Welcome to my portfolio! I am a backend/fullstack developer interning'+
+		'Welcome to my portfolio! I am a backend/fullstack developer interning '+
 		 'at Lockheed Martin\'s digital transformation team - as well as a '+
 		  'current student at Cornell Engineering hoping to concentrate in AI/ML. \n'+
 		  'Feel free to browse and check out '+
