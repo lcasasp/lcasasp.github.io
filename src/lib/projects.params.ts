@@ -7,21 +7,17 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'Flare',
 		color: '#5e95e3',
 		description: 
-				"Architected and developed Flare, an innovative open-source Python search engine that aggregates energy and climate news from diverse sources, centralizing them into an SQLite3 database for easy access.\n \n" +
-"Implemented advanced search capabilities leveraging Elasticsearch and Lucene, enhancing user experience through keyword matching, date filters, and a truthfulness algorithm that cross-references articles with IPCC climate report. Engineered a search engine that can sort and index 200 articles with an average speed of 78 ms. \n" +
-"Leveraged advanced multithreading to get, index, score truthfulness of and query 200 articles in under 3.4 seconds."
+				`Architected and developed Flare, an innovative open-source Python earch engine with a ReactJs front end that aggregates energy and climate news from diverse sources, centralizing them into an SQLite3 database for easy access.\n \n` +
+`Implemented advanced search capabilities leveraging Elasticsearch and Lucene, enhancing user experience through keyword matching, date filters, and a truthfulness algorithm that cross-references articles with IPCC climate report. Engineered a search engine that can sort and index 200 articles with an average speed of 78 ms. \n` +
+`Leveraged advanced multithreading to get, index, and and query 1000 articles in under 3.4 seconds. \n https://flare-news.com`
 			,
-		shortDescription: `
-				Founded Flare, a cutting-edge search engine powered by Elastic, designed to provide users with unbiased and comprehensive 
-			insights into the global climate and energy crisis. It aggregates current events and news media from diverse 
-			sources, eliminating bias and delivering tailored results to inform and empower users.
-			`,
-		links: [{ to: 'https://github.com/lcasasp/Flare', label: 'GitHub' }],
+		shortDescription:
+				`Architected and developed Flare, my most ambitious project yet. It is deployed, and reachable at https://www.flare-news.com`,
+		links: [{to: 'https://flare-news.com', label: 'Flare'},{ to: 'https://github.com/lcasasp/Flare', label: 'GitHub' }],
 		logo: Assets.Flare,
 		name: 'Flare',
 		period: {
 			from: new Date(2023, 6, 1),
-			to: new Date(2023, 8, 1)
 		},
 		skills: getSkills('reactjs', 'Python', 'Flask'),
 		type: 'Search Engine',
