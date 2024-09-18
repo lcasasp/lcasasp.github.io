@@ -19,7 +19,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date(2023, 6, 1),
 		},
-		skills: getSkills('reactjs', 'Python', 'Flask'),
+		skills: getSkills('reactjs', 'Python', 'Flask', 'typescript', 'Elasticsearch', 'Docker', 'AWS', 'SQL'),
 		type: 'Search Engine',
 		screenshots: [
 			{
@@ -103,7 +103,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2022, 11, 1),
 			to: new Date(2022, 12, 1)
 		},
-		skills: getSkills('Python', 'Flask', 'Docker'),
+		skills: getSkills('Python', 'Flask', 'Docker', 'HTML', 'CSS', 'SQL'),
 		type: 'Hackathon',
 		screenshots: [
 			{

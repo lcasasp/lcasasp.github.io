@@ -6,21 +6,23 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'Lockheed Martin',
 		company: 'Lockheed Martin',
-		description: `• Shipped product for an undisclosed website using Angular, .NET, and C#. 
-			• Created new generative AI service in C# to interact with Lockheed Martin data and generate insights. 
-			• Collaborated in a team on a large-sized project leveraging git workflows and the AGILE methodology.`,
+		description: `• Shipped ~1800 lines of code for a large web app using Angular, .NET, and C# as a full stack developer. ` +
+			`\n• Hyper tuned LLM’s and RAG as a service to interact with proprietary data and generate insights. ` +
+			`\n• Collaborated in a team on a large-sized project leveraging git workflows, AGILE methodology and SCRUM. ` +
+			`\n• Earned an extended part-time remote position for Fall 2024 based on exceptional performance within team.`,
 		contract: ContractType.Internship,
 		type: 'Software Engineering',
 		location: 'New York, NY',
 		period: { from: new Date(2024, 5, 1)},
-		skills: getSkills('CSharp', 'Angular'),
+		skills: getSkills('CSharp', 'Angular', 'HTML', 'CSS', 'ML'),
 		name: 'Software Engineering Intern',
 		color: '#003478',
 		links: [{ to: 'https://www.lockheedmartin.com/en-us/index.html', label: 'Lockheed Martin' }],
 		logo: Assets.Lockheed,
 		shortDescription:
-			"• Incoming intern for Lockheed Martin's Enterprise Business and Digital Transformation team to develop and optimize software." +
-			'\n• Worked in a team of 3 on a site to centralize Lockheed Martin research using Angular, .NET, and Python.'
+			"• Intern for Lockheed Martin's Enterprise Business and Digital Transformation team to develop and optimize software." +
+			'\n• Worked in a team of 3 on a large web app using Angular, .NET, and C#.' +
+			'\n• Earned a part time position for the Fall 2024 position.'
 	},
 	{
 		slug: 'Palantir Launch',
@@ -65,7 +67,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Ithaca NY',
 		period: { from: new Date(2023, 8, 1), to: new Date() },
-		skills: getSkills('Rust', 'Python', 'ts', 'reactjs', 'css', 'html', 'js'),
+		skills: getSkills('Rust', 'Python', 'ts', 'reactjs', 'css', 'html', 'js', 'Numpy'),
 		name: 'Ventures Accelerated SWE Fellow',
 		color: '#ffffff',
 		links: [{ to: 'https://www.venturesaccelerated.org/', label: 'Ventures Accelerated' }],

@@ -27,13 +27,11 @@ const MY_SKILLS = [
 		name: 'Rust'
 	}),
 	s({
-		slug: 'Java',
+		slug: 'C',
 		color: 'blue',
-		description: `Java was the very first language I learned back in high school. The object oriented paradigm served as a catalyst to propell me
-			into studying CS at Cornell. I have used Java academically in AP CSA and CS2110 at Cornell University. Notably, in CS2110 I ranked
-			12th out of ~630 students in our final project; learn more at the project McDiver.`,
-		logo: Assets.Java,
-		name: 'Java'
+		description: 'I\'ve worked on C extensively in an academic setting, mainly for my CS3410: Computer Organization course to gain a deeper understanding of memory management, bit manipulation, as well as to understand low-level programming on a deeper level.',
+		logo: Assets.C,
+		name: 'C'
 	}),
 	s({
 		slug: 'js',
@@ -71,23 +69,26 @@ const MY_SKILLS = [
 		name: 'Flask'
 	}),
 	s({
+		slug: 'Elasticsearch',
+		color: 'Yellow',
+		description: 'I\'ve used Elasticsearch extensively in my application Flare. My experience involved levaraging Lucene for my search engine, coupled with Elastic for my NoSQL database. This has given me a deep understanding of document storage and database systems as well as SEO.',
+		logo: Assets.Elasticsearch,
+		name: 'Elasticsearch'
+	}),
+	s({
+		slug: 'SQL',
+		color: 'blue',
+		description: `I have used SQL extensively in Cornell Hitch, academically, and expect to take CS 4320: Databases soon as well to further refine my skills.`,
+		logo: Assets.SQL,
+		name: 'SQL'
+	}),
+	s({
 		slug: 'Docker',
 		color: 'blue',
 		description: `Through my work at Cornell University, I have learned how to use Docker to deploy my applications. I have used it to deploy my backend for Cornell Hitch and 
 			soon Flare. The containerization aspect of Docker has left me awestruck and I hope to learn more about it in the future.`,
 		logo: Assets.Docker,
 		name: 'Docker'
-	}),
-	s({
-		slug: 'ML',
-		color: 'blue',
-		description: `Though a very broad skill to list, this year I have dove deep into the realm of machine learning. I have used it in my academic projects such as in 
-			CS4700 and CS4701 (Foundations of Artificial Intelligence and Practicum of Artificial Intelligence respectively),as well as in my personal projects
-			such as in my climate media validator. I have used it in conjunction with python and tensorflow to develop a good understanding of how to develop a
-			machine learning model. Though I have limited project to show for this skill, I plan to concentrate in the Cornell Engineering Artifical Intelligence vector
-			and hope to add more projects to this list soon, and potentially pursue a career in the field.`,
-		logo: Assets.ML,
-		name: 'Machine Learning'
 	}),
 	s({
 		slug: 'OCaml',
@@ -114,6 +115,54 @@ const MY_SKILLS = [
 			using Angular using the .NET framework.`,
 		logo: Assets.Angular,
 		name: 'Angular'
+	}),
+	s({
+		slug: 'ML',
+		color: 'blue',
+		description: `Though a very broad skill to list, this year I have dove deep into the realm of machine learning. I have used it in my academic projects such as in 
+			CS4700 and CS4701 (Foundations of Artificial Intelligence and Practicum of Artificial Intelligence respectively),as well as in my personal projects
+			such as in my climate media validator. I have used it in conjunction with python and tensorflow to develop a good understanding of how to develop a
+			machine learning model. Though I have limited project to show for this skill, I plan to concentrate in the Cornell Engineering Artifical Intelligence vector
+			and hope to add more projects to this list soon, and potentially pursue a career in the field.`,
+		logo: Assets.ML,
+		name: 'Machine Learning'
+	}),
+	s({
+		slug: 'Numpy',
+		color: 'blue',
+		description: 'Used both in personal projects, as well as extensively in my CS 3780: Machine Learning course.',
+		logo: Assets.Numpy,
+		name: 'Numpy'
+	}),
+	s({
+		slug: 'AWS',
+		color: 'Orange',
+		description: `I have used AWS extensively in my personal projects, notably to deploy Flare and Cornell Hitch; as well as my work at Ventures Accelerated where I worked as a software fellow for a startup; transitioning their backend API from a python Flask deployment to an AWS Lambda solution. This increased their API response speed by ~35%. I have also received a certification from AWS Educate for Cloud Computing 101.`,
+		logo: Assets.AWS,
+		name: 'AWS'
+	}),
+	s({
+		slug: 'Java',
+		color: 'blue',
+		description: `Java was the very first language I learned back in high school. The object oriented paradigm served as a catalyst to propell me
+			into studying CS at Cornell. I have used Java academically in AP CSA and CS2110 at Cornell University. Notably, in CS2110 I ranked
+			12th out of ~630 students in our final project; learn more at the project McDiver.`,
+		logo: Assets.Java,
+		name: 'Java'
+	}),
+	s({
+		slug: 'HTML',
+		color: 'orange',
+		description: `HTML is the backbone of the web. I have used it extensively in my personal website and in my academic projects`,
+		logo: Assets.HTML,
+		name: 'HTML'
+	}),
+	s({
+		slug: 'CSS',
+		color: 'blue',
+		description: `CSS is the styling language of the web. I have used it extensively in my personal website and in my academic projects, and have used frameworks such as Bootstrap and TailwindCSS as well.`,
+		logo: Assets.CSS,
+		name: 'CSS'
 	})
 ];
 
