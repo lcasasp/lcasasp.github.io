@@ -85,6 +85,8 @@ const Assets = {
 	Ship: a('ship.png'),
 	Lockheed: a('lockheed.png'),
 	Palantir: a('palantir.png'),
+	Amazon: a('amazon.png'),
+	Roblox: a('roblox.png'),
 };
 
 export default Assets;

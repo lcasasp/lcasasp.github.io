@@ -29,7 +29,8 @@ const MY_SKILLS = [
 	s({
 		slug: 'C',
 		color: 'blue',
-		description: 'I\'ve worked on C extensively in an academic setting, mainly for my CS3410: Computer Organization course to gain a deeper understanding of memory management, bit manipulation, as well as to understand low-level programming on a deeper level.',
+		description:
+			"I've worked on C extensively in an academic setting, mainly for my CS3410: Computer Organization course to gain a deeper understanding of memory management, bit manipulation, as well as to understand low-level programming on a deeper level.",
 		logo: Assets.C,
 		name: 'C'
 	}),
@@ -71,7 +72,8 @@ const MY_SKILLS = [
 	s({
 		slug: 'Elasticsearch',
 		color: 'Yellow',
-		description: 'I\'ve used Elasticsearch extensively in my application Flare. My experience involved levaraging Lucene for my search engine, coupled with Elastic for my NoSQL database. This has given me a deep understanding of document storage and database systems as well as SEO.',
+		description:
+			"I've used Elasticsearch extensively in my application Flare. My experience involved levaraging Lucene for my search engine, coupled with Elastic for my NoSQL database. This has given me a deep understanding of document storage and database systems as well as SEO.",
 		logo: Assets.Elasticsearch,
 		name: 'Elasticsearch'
 	}),
@@ -130,7 +132,8 @@ const MY_SKILLS = [
 	s({
 		slug: 'Numpy',
 		color: 'blue',
-		description: 'Used both in personal projects, as well as extensively in my CS 3780: Machine Learning course.',
+		description:
+			'Used both in personal projects, as well as extensively in my CS 3780: Machine Learning course.',
 		logo: Assets.Numpy,
 		name: 'Numpy'
 	}),
@@ -163,6 +166,13 @@ const MY_SKILLS = [
 		description: `CSS is the styling language of the web. I have used it extensively in my personal website and in my academic projects, and have used frameworks such as Bootstrap and TailwindCSS as well.`,
 		logo: Assets.CSS,
 		name: 'CSS'
+	}),
+	s({
+		slug: 'C++',
+		color: 'blue',
+		description: `C++ is a powerful language that I have used in my academic projects and professionally at Roblox`,
+		logo: Assets.Cpp,
+		name: 'C++'
 	})
 ];
 
