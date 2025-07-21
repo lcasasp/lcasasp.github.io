@@ -7,8 +7,9 @@ const MY_EXPERIENCES: Array<Experience> = [
 		slug: 'Roblox',
 		company: 'Roblox',
 		description: `
-			• Software Engineering Intern for Summer 2025 for the Creator > Data team.
-			• Will leverage skills in TypeScript, C++, and cloud technologies to contribute to Roblox's mission of connecting millions of users through immersive experiences.
+Implemented Data Store soft deletion support by extending Roblox’s distributed background processing framework.
+Shipped new backend gRPC APIs and access control logic to safely queue billions of items to process deletions at scale, safely deleting 10k+ records / sec per worker across millions of games.
+Completed internship stretch goals including extensive metrics reporting, communicating with Creators, completing security and legal reviews, UI changes to the Creator Dashboard, and leading a successful alpha launch.
 		`,
 		contract: ContractType.Internship,
 		type: 'Software Engineering',
@@ -20,19 +21,20 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [{ to: 'https://www.roblox.com/', label: 'Roblox' }],
 		logo: Assets.Roblox,
 		shortDescription: `
-			• SWE Intern at Roblox for Summer 2025.
-			• Working on the Creator > Data team.
+Implemented Data Store soft deletion support by extending Roblox’s distributed background processing framework.
+Shipped new backend gRPC APIs and access control logic to safely queue billions of items to process deletions at scale, safely deleting 10k+ records / sec per worker across millions of games.
+Completed internship stretch goals including extensive metrics reporting, communicating with Creators, completing security and legal reviews, UI changes to the Creator Dashboard, and leading a successful alpha launch.
 		`
 	},
 	{
 		slug: 'Amazon',
 		company: 'Amazon',
 		description: `
-			• Led end-to-end design and launch of an event-driven service that proactively validates ~200 million daily abandoned-cart & browse-again email/push/SMS templates, safeguarding >$3 B in annual marketing revenue.
-			• Architected a scalable AWS-native pipeline (Step Functions, Lambda, CloudWatch) running thousands of parallel validations in < 12 seconds - slashing mean time-to-detect issues with auto-remediation alarms.
-			• Built a custom SigV4-signed HTTP client with advanced cookie/header logic to access secure internal endpoints.
-			• Delivered ~23,000 lines of production Java/TypeScript code boasting test coverage over 94%.
-			• Authored design docs reviewed by staff engineers and management and engaged in sprint planning and SCRUM.
+Led end-to-end design and launch of an event-driven service that proactively validates ~200 million daily abandoned-cart & browse-again email/push/SMS templates, safeguarding >$3 B in annual marketing revenue.
+Architected a scalable AWS-native pipeline (Step Functions, Lambda, CloudWatch) running thousands of parallel validations in < 12 seconds - slashing mean time-to-detect issues with auto-remediation alarms.
+Built a custom SigV4-signed HTTP client with advanced cookie/header logic to access secure internal endpoints.
+Delivered ~23,000 lines of production Java/TypeScript code boasting test coverage over 94%.
+Authored design docs reviewed by staff engineers and management and engaged in sprint planning and SCRUM.
 		`,
 		contract: ContractType.Internship,
 		type: 'Software Engineering',
@@ -44,21 +46,21 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [{ to: 'https://www.amazon.com/', label: 'Amazon' }],
 		logo: Assets.Amazon,
 		shortDescription: `
-			• Led end-to-end design and launch of an event-driven service that proactively validates ~200 million daily abandoned-cart & browse-again email/push/SMS templates, safeguarding >$3 B in annual marketing revenue.
-			• Architected a scalable AWS-native pipeline (Step Functions, Lambda, CloudWatch) running thousands of parallel validations in < 12 seconds - slashing mean time-to-detect issues with auto-remediation alarms.
-			• Built a custom SigV4-signed HTTP client with advanced cookie/header logic to access secure internal endpoints.
-			• Delivered ~23,000 lines of production Java/TypeScript code boasting test coverage over 94%.
-			• Authored design docs reviewed by staff engineers and management and engaged in sprint planning and SCRUM.
+Led end-to-end design and launch of an event-driven service that proactively validates ~200 million daily abandoned-cart & browse-again email/push/SMS templates, safeguarding >$3 B in annual marketing revenue.
+Architected a scalable AWS-native pipeline (Step Functions, Lambda, CloudWatch) running thousands of parallel validations in < 12 seconds - slashing mean time-to-detect issues with auto-remediation alarms.
+Built a custom SigV4-signed HTTP client with advanced cookie/header logic to access secure internal endpoints.
+Delivered ~23,000 lines of production Java/TypeScript code boasting test coverage over 94%.
+Authored design docs reviewed by staff engineers and management and engaged in sprint planning and SCRUM.
 		`
 	},
 	{
 		slug: 'Lockheed Martin',
 		company: 'Lockheed Martin',
 		description: `
-			• Shipped ~1800 lines of code for a large web app using Angular, .NET, and C# as a full stack developer.
-			• Hyper tuned LLM's and RAG as a service to interact with proprietary data and generate insights.
-			• Collaborated in a team on a large-sized project leveraging git workflows, AGILE methodology and SCRUM.
-			• Earned an extended part-time remote position for Fall 2024 based on exceptional performance within team.
+Shipped ~1800 lines of code for a large web app using Angular, .NET, and C# as a full stack developer.
+Hyper tuned LLM's and RAG as a service to interact with proprietary data and generate insights.
+Collaborated in a team on a large-sized project leveraging git workflows, AGILE methodology and SCRUM.
+Earned an extended part-time remote position for Fall 2024 based on exceptional performance within team.
 		`,
 		contract: ContractType.Internship,
 		type: 'Software Engineering',
@@ -70,9 +72,9 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [{ to: 'https://www.lockheedmartin.com/en-us/index.html', label: 'Lockheed Martin' }],
 		logo: Assets.Lockheed,
 		shortDescription: `
-			• Intern for Lockheed Martin's Enterprise Business and Digital Transformation team to develop and optimize software.
-			• Worked in a team of 3 on a large web app using Angular, .NET, and C#.
-			• Earned a part time position for the Fall 2024 position.
+Intern for Lockheed Martin's Enterprise Business and Digital Transformation team to develop and optimize software.
+Worked in a team of 3 on a large web app using Angular, .NET, and C#.
+Earned a part time position for the Fall 2024 position.
 		`
 	},
 	{

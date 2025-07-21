@@ -21,6 +21,8 @@
 		: 'Present';
 
 	const period = `${from} - ${to} · ${months}`;
+
+	$: descriptionLines = experience.description.split('\n').map(line => line.trim()).filter(Boolean);
 </script>
 
 <Card margin="0px 0px 20px 0px" tiltDegree={2} href={`${base}/experience/${experience.slug}`}>
@@ -44,7 +46,15 @@
 				</ChipIcon>
 			</div>
 			<div class="text-[var(--accent-text)] text-[0.9em] font-200">{period}</div>
-			<div class="experience-description">{experience.description}</div>
+			{#if descriptionLines.length > 1}
+				<ul class="experience-description">
+					{#each descriptionLines as line}
+						<li>{line}</li>
+					{/each}
+				</ul>
+			{:else}
+				<div class="experience-description">{experience.description}</div>
+			{/if}
 			<div class="flex flex-row flex-wrap mt-5">
 				{#each experience.skills as skill}
 					<ChipIcon
