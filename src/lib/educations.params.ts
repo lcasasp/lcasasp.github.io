@@ -10,9 +10,20 @@ export const MY_EDUCATIONS: Array<Education> = [
 		name: '',
 		organization: 'Cornell University',
 		period: { from: new Date(2021, 11, 1) },
-		shortDescription: '',
+		shortDescription: 'Graduating in December 2025',
 		slug: 'dummy-education-item',
-		subjects: ['OOP', 'Python', 'Java', 'OCaml', 'Discrete Math', 'Algorithm Analysis', 'Machine Learning', 'Computer Organization']
+		subjects: [
+			'OOP',
+			'Python',
+			'Java',
+			'OCaml',
+			'Discrete Math',
+			'Algorithm Analysis',
+			'Machine Learning',
+			'Computer Organization',
+			'C',
+			'C++'
+		]
 	},
 	{
 		degree: 'Undergraduate Summer Session',
