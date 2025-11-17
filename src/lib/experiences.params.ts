@@ -4,6 +4,23 @@ import { ContractType, type Experience } from './types';
 
 const MY_EXPERIENCES: Array<Experience> = [
 	{
+		slug: 'Palantir',
+		company: 'Palantir',
+		description: `Incoming Forward Deployed Software Engineer in the commercial sector.`,
+		contract: ContractType.FullTime,
+		type: 'Software Engineering',
+		location: 'New York, NY',
+		period: {
+			from: new Date(2026, 2, 1)
+		},
+		skills: getSkills('ts'),
+		name: 'Forward Deployed Software Engineer',
+		color: '#000000',
+		links: [{ to: 'https://www.palantir.com/', label: 'Palantir' }],
+		logo: Assets.Palantir,
+		shortDescription: `Incoming Forward Deployed Software Engineer in the commercial sector.`
+	},
+	{
 		slug: 'Roblox',
 		company: 'Roblox',
 		description: `
