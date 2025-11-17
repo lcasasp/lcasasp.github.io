@@ -10,7 +10,7 @@ const MY_SKILLS = [
 	s({
 		slug: 'Python',
 		color: 'blue',
-		description: `Python has been my most used language in my journey. I have used it for a variety of projects, from web development to machine learning.
+		description: `Python has been my most used language in my journey. I have used it for a variety of projects and experiences, from web development to machine learning.
 			I have used it extensively in academic environments such as in CS1110 and CS4700 and CS4701 at Cornell University.
 			Additionally, many of my passion projects involve heavy python usage. Click on any project below to find out more, Flare being my most
 			elaborate python project thus far.`,
