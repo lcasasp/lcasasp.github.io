@@ -41,12 +41,7 @@ export const HOME: HomePageParams = {
 	name: 'Lucas',
 	lastName: 'Casas',
 	description:
-		'Welcome to my portfolio! I am a backend/fullstack developer interning '+
-		 'at Lockheed Martin\'s digital transformation team - as well as a '+
-		  'current student at Cornell Engineering hoping to concentrate in AI/ML. \n'+
-		  'Feel free to browse and check out '+
-		  'some of my projects and please reach out to me if you have any '+
-		  'questions!',
+		'Hi! I’m Lucas - a recent graduate from Cornell University where I studied Computer Science with a minor in Business. I’m a dual citizen from Spain and the United States, which has caused me to move around my entire life. These experiences have given me the skills to quickly adapt and learn, which I’ve brought into my professional experiences. Upon my graduation, I will be joining Palantir as a forward deployed engineer, where I am excited to grow my skills not only as an engineer but as a technical consultant to meet clients needs.',
 	links: [
 		{ 
 			platform: Platform.GitHub,
