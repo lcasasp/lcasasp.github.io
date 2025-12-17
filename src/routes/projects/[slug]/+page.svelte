@@ -12,6 +12,7 @@
 	import Banner from '$lib/components/Banner/Banner.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
+	import ScreenshotLightbox from '$lib/components/ScreenshotLightbox/ScreenshotLightbox.svelte';
 
 	export let data: { project?: Project };
 
@@ -20,6 +21,18 @@
 	const screenshots = data.project?.screenshots ?? [];
 
 	$: computedTitle = data.project ? `${data.project.name} - ${title}` : title;
+
+	let lightboxOpen = false;
+	let lightboxIndex = 0;
+
+	function openLightbox(index: number) {
+		lightboxIndex = index;
+		lightboxOpen = true;
+	}
+
+	function closeLightbox() {
+		lightboxOpen = false;
+	}
 </script>
 
 <TabTitle title={computedTitle} />
@@ -88,9 +101,15 @@
 					<div
 						class="px-10px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-t-10 "
 					>
-						{#each screenshots as item}
+						{#each screenshots as item, index}
 							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
-								<img class="aspect-video w-100%" src={item.src} alt={item.label} />
+								<button
+									class="screenshot-thumbnail-button"
+									on:click={() => openLightbox(index)}
+									aria-label={`Expand screenshot: ${item.label}`}
+								>
+									<img class="aspect-video w-100%" src={item.src} alt={item.label} />
+								</button>
 								<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
 							</div>
 						{/each}
@@ -105,3 +124,35 @@
 		</div>
 	{/if}
 </div>
+
+{#if screenshots.length > 0}
+	<ScreenshotLightbox
+		screenshots={screenshots}
+		initialIndex={lightboxIndex}
+		open={lightboxOpen}
+		on:close={closeLightbox}
+	/>
+{/if}
+
+<style lang="scss">
+	.screenshot-thumbnail-button {
+		width: 100%;
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		transition: transform 0.2s ease;
+		border-radius: 10px;
+		overflow: hidden;
+
+		&:hover {
+			transform: scale(1.02);
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+</style>
