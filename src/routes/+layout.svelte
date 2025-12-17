@@ -21,6 +21,9 @@
 		flex-direction: column;
 		flex: 1;
 		padding: 0px 0px;
+		overflow-x: hidden;
+		max-width: 100%;
+		box-sizing: border-box;
 	}
 
 	.body {
@@ -35,6 +38,8 @@
 		letter-spacing: 1px;
 
 		min-height: 100vh;
+		overflow-x: hidden;
+		max-width: 100vw;
 	}
 
 	:global(p) {

@@ -65,8 +65,8 @@
 		width: 100%;
 		max-width: 1100px;
 		margin: 0 auto;
-		gap: 32px;           /* was too large */
-		padding: 0 24px;     /* controlled, consistent */
+		gap: 0px;
+		padding: 0 10px 0 0;     /* No left padding, keep right padding */
 	}
 	
 	/* Left column should NOT reserve so much width */
@@ -96,6 +96,9 @@
 	.right {
 		min-width: 0;
 		margin-left: 0;
+		max-width: 100%;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
 	}
 	
 	/* Optional: slightly reduce perceived “right shift” by aligning title block */
@@ -110,7 +113,7 @@
 			align-items: center;
 			text-align: center;
 			gap: 18px;
-			padding: 0 18px;
+			padding: 0 18px 0 0;  /* No left padding on mobile too */
 		}
 	
 		.left {
